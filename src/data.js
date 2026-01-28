@@ -1,3 +1,14 @@
+import { Truck, Tractor, Construction, Wrench, Container, Map } from 'lucide-react';
+
+import fleetMobile from './assets/images/fleet_mobile.png';
+import fleetCrawler from './assets/images/fleet_crawler.png';
+import fleetTrailer from './assets/images/fleet_trailer.png';
+
+import projectRefinery from './assets/images/project_refinery.png';
+import projectStadium from './assets/images/project_stadium.png';
+import projectWagah from './assets/images/project_wagah.png';
+import projectHighrise from './assets/images/project_highrise.png';
+
 export const NAV_LINKS = [
     { name: 'Home', href: '#home' },
     { name: 'About', href: '#about' },
@@ -53,19 +64,19 @@ export const FLEET_DATA = {
         title: 'Mobile Cranes',
         description: 'Road-legal, quick setup. Ideal for urban/remote locations.',
         capacities: ['Light (60-220 MT)', 'Heavy (250-360 MT)'],
-        image: 'https://placehold.co/600x400?text=Mobile+Crane', // Prompt 2
+        image: fleetMobile,
     },
     crawler: {
         title: 'Crawler Cranes',
         description: 'Heavy duty (up to 800 MT), works on soft ground. Brands: SANY, XCMG, Zoomlion.',
         capacities: ['Heavy (250-360 MT)', 'Ultra Heavy (400-800 MT)'],
-        image: 'https://placehold.co/600x400?text=Crawler+Crane', // Prompt 3
+        image: fleetCrawler,
     },
     trailers: {
         title: 'Trailers',
         description: 'Heavy-duty trailers for machinery transport.',
         capacities: [],
-        image: 'https://placehold.co/600x400?text=Trailers',
+        image: fleetTrailer,
     },
 };
 
@@ -73,22 +84,22 @@ export const PROJECTS_DATA = [
     {
         title: 'HMEL Refinery',
         description: 'Long-term maintenance and shutdown support (3 years).',
-        image: 'https://placehold.co/600x400?text=HMEL+Refinery', // Prompt 4
+        image: projectRefinery,
     },
     {
         title: 'JLN Stadium',
         description: 'Redevelopment heavy lifting for the 2010 modernization.',
-        image: 'https://placehold.co/600x400?text=JLN+Stadium', // Prompt 5
+        image: projectStadium,
     },
     {
         title: 'Wagah Border',
         description: 'Installation of the National Flag structure (High national importance).',
-        image: 'https://placehold.co/600x400?text=Wagah+Border', // Prompt 6
+        image: projectWagah,
     },
     {
         title: 'High-Rise Construction',
         description: 'Tower crane erection in Gurgaon (Restricted urban site).',
-        image: 'https://placehold.co/600x400?text=High-Rise',
+        image: projectHighrise,
     },
 ];
 

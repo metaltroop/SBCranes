@@ -1,4 +1,5 @@
 import { CheckCircle2 } from 'lucide-react';
+import aboutImage from '../assets/images/about_texture.png';
 
 const About = () => {
     return (
@@ -8,7 +9,7 @@ const About = () => {
                     <div className="relative group">
                         <div className="absolute -inset-4 bg-accent/20 rounded-xl rotate-3 transition-transform group-hover:rotate-6 duration-300" />
                         <img
-                            src="https://placehold.co/800x600?text=About+Image" // Prompt 7
+                            src={aboutImage}
                             alt="About SB Cranes"
                             className="relative rounded-lg shadow-xl w-full object-cover aspect-[4/3]"
                         />

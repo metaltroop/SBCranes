@@ -1,5 +1,6 @@
 import { ArrowRight } from 'lucide-react';
 import { STATS } from '../data';
+import heroBg from '../assets/images/hero_background.png';
 
 const Hero = () => {
     return (
@@ -8,7 +9,7 @@ const Hero = () => {
             <div className="absolute inset-0 z-0">
                 <div className="absolute inset-0 bg-primary/40 z-10" /> {/* Overlay */}
                 <img
-                    src="https://placehold.co/1920x1080?text=Hero+Image" // Prompt 1
+                    src={heroBg}
                     alt="Construction Site"
                     className="w-full h-full object-cover"
                 />
